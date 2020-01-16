@@ -1,0 +1,424 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#section1 {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+#section2 {
+  width: 100%;
+  height: 120vh;
+  background-color: #F5F5F5;
+}
+
+#section3 {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+p {
+  width: 200%;
+  font-size: 120%;
+  line-height:0.5em;
+}
+
+.welkom img {
+   border-radius: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 200px;
+   margin-top: -25em;
+}
+
+.welkomImg img{
+position: top;
+z-index: 1;
+top: -1em;
+left: -1em;
+width: 110%;
+height: 420px;
+}
+
+.welkom {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  line-height:0.9em;
+}
+
+.menu {
+  padding-top: 8em;
+  display: grid;
+ grid-template-columns: auto auto auto;
+   grid-column-gap: 250px;
+   margin-left: 6%;
+}
+
+.aboutMe {
+  padding-top:10em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 195px;
+}
+
+.aboutMe img {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutMe_2 {
+  padding-top:2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 650px;
+}
+
+.contact {
+  margin-top: 5em;
+  width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills {
+  margin-top: 10em;
+}
+
+.skills img {
+  width: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+}
+
+.skillHTML {
+	height: 20px;
+	position: relative;
+	background: #555;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skillHTML > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #008000;
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+  );
+  box-shadow:
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.skillOT {
+	height: 20px;
+	position: relative;
+	background: #555;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skillOT > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #ff00bf;
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+  );
+  box-shadow:
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.skillCSS {
+	height: 20px;
+	position: relative;
+	background: #555;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skillCSS > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #ff3333;
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+  );
+  box-shadow:
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+
+.skillJS {
+	height: 20px;
+	position: relative;
+	background: #555;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skillJS > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color:  #0099ff;
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+  );
+  box-shadow:
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.skillWP {
+	height: 20px;
+	position: relative;
+	background: #555;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skillWP > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color:  #ffc61a;
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+  );
+  box-shadow:
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+
+.skillPHP {
+	height: 20px;
+	position: relative;
+	background: #555;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skillPHP > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: purple;
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+  );
+  box-shadow:
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+
+.projecten {
+  margin-top: 10em;
+}
+
+.projecten img {
+  width: 320px;
+  height: 220px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projecten h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 8em;
+  padding: 1.2em;
+  justify-items: center;
+}
+
+img .modaal-Knop {
+  max-width: 100px;
+  transition: transform.3s forwards, box-shadow .4s forwards;
+}
+
+img.modaal-knop:hover {
+  transform: scale(1.1);
+  box-shadow: .5em .5em .2em lightgrey;
+}
+
+.warpper .modaConent {
+  display: none;
+}
+
+.modaal-knop {
+  cursor: pointer;
+}
+
+.modaal-knop:hover {
+  color: lightgrey;
+}
+
+.cover {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 80vw;
+}
+
+img .grid{
+  max-width: 100%;
+}
+
+.modaalAchtergrond {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.modaal {
+  max-width: 80%;
+  padding: 2em;
+  border-radius: 1em;
+  background-color: lightgrey;
+  max-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-row-gap: 1em;
+  animation: opkomen 1s forwards;
+}
+
+
+.sluitKnop {
+  background-color: lightgrey;
+  width: 2em;
+  justify-self: end;
+  font-size: 2em;
+  font-weight: 900;
+  transform: translate(1em);
+  border: 0;
+}
+
+.sluitKnop:hover {
+  color: red;
+}
+
+@keyframes  opkomen {
+  0% {transform: scale(0);
+  20% {transform: scale(1.2);
+  30% {transform: scale(0.9);
+  40% {transform: scale(1.05);
+  50% {transform: scale(0.975);
+  60% {transform: scale(1.012);
+  70% {transform: scale(.995);
+  80% {transform: scale(1.006);
+  70% {transform: scale(.9997);
+  100% {transform: scale(1);}
+}
